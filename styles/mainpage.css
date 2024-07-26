@@ -1,7 +1,12 @@
 body {
-    background-color: #f7f0f0;
+    background-color: #63615d;
 }
 
 header {
     color: #1f1583 
+}
+
+.top-bar{
+    background-color: #f6e353;
+    color: #30a31c;
 }
