@@ -30,11 +30,14 @@ header {
 
 .nav-list{
     list-style-type: none;
-    padding: none;
+    padding: 0;
 }
 
 .nav-list li{
     display: inline-block;
+}
+
+.nav-list div{
     background: #f6e353;
     color: #30a31c;
 }
