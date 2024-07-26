@@ -26,6 +26,7 @@ header {
     background-color: #f6e353;
     color: #30a31c;
     text-align: center;
+    position: fixed;
 }
 
 .nav-list{
@@ -37,7 +38,12 @@ header {
     display: inline-block;
 }
 
+.nav-list li a{
+    text-decoration: none;
+}
+
 .nav-list div{
     background: #f6e353;
     color: #30a31c;
+    padding: 20px;
 }
