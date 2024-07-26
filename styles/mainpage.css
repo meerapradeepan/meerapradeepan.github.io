@@ -1,13 +1,18 @@
 body {
     background-color: #63615d;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
 }
 
 header {
-    color: #1f1583 
+    color: #1f1583;
+    text-align: center;
 }
 
 .top-bar{
     width: 100%;
     background-color: #f6e353;
     color: #30a31c;
+    text-align: center;
 }
