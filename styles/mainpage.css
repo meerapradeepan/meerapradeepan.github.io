@@ -51,5 +51,6 @@ header {
 .butterfly-trifecta img{
     max-width:25%;
     height:auto;
-    padding: 6.25%;
+    margin-left:auto;
+    margin-right:auto;
 }
