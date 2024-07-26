@@ -1,3 +1,11 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
 html, body {
     margin: 0px;
     padding: 0px;
@@ -18,4 +26,15 @@ header {
     background-color: #f6e353;
     color: #30a31c;
     text-align: center;
+}
+
+.nav-list{
+    list-style-type: none;
+    padding: none;
+}
+
+.nav-list li{
+    display: inline-block;
+    background: #f6e353;
+    color: #30a31c;
 }
