@@ -47,3 +47,9 @@ header {
     color: #30a31c;
     padding: 20px;
 }
+
+.butterfly-trifecta img{
+    max-width:25%;
+    height:auto;
+    padding: 6.25%;
+}
