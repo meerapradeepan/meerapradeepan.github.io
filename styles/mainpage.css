@@ -46,6 +46,22 @@ header {
     padding: 20px;
 }
 
+.butterfly-trifecta {
+    position: relative;
+}
+
+.cocoon {
+    right: 7.5%;
+}
+
+.caterpillar {
+    right: 38.5%;
+}
+
+.butterfly {
+    right: 68.5%;
+}
+
 .butterfly-trifecta img{
     max-width:25%;
     height:auto;
