@@ -40,12 +40,17 @@ body {
 /* start funeral specific stuff*/
 .grid-container{
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 3fr 2fr;
 }
-
+.butterfly-container {
+    align-items: center;
+}
 .butterfly{
+    display:block;
     padding: 10px;
-    max-width: 30%;
+    max-width:75%;
+    height:auto;
+    margin:auto;
 }
 
 .large-text{
