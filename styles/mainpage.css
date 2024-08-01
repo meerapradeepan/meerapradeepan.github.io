@@ -1,3 +1,11 @@
+/* 
+original hex codes:
+green - #30a31c
+yellow - #f6e353
+blue - #1f1583
+gray - #63615d
+*/
+
 html {
     box-sizing: border-box;
 }
@@ -11,29 +19,52 @@ html, body {
 }
 
 body {
-    background-color: #63615d;
+    background-color: #e6dfad;
     margin: 0;
 }
 
 header {
-    color: #1f1583;
+    color: #171064;
     text-align: center;
+}
+
+.blue-text{
+    color: #171064;
+}
+
+.home{
+    display: flex;
+    flex-direction: column;
+}
+
+.home .content-wrapper{
+    flex: 1 0 auto;
 }
 
 .top-bar{
     width: 100%;
-    background-color: #f6e353;
-    color: #30a31c;
+    background-color: #3c6d33;
+    color: #29245b;
     text-align: center;
+}
+
+.philosophy {
+    color: #181069;
+    text-align: center;
+    margin: 0 50px;
 }
 
 .nav-list{
     list-style-type: none;
-    padding: 0;
+    padding: 0 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .nav-list li{
     display: inline-block;
+    max-width: 25%;
 }
 
 .nav-list li a{
@@ -41,14 +72,21 @@ header {
 }
 
 .nav-list div{
-    background: #f6e353;
-    color: #30a31c;
+    background: #3c6d33;
+    color: #29245b;
     padding: 20px;
+    margin: 10px;
 }
 
 .butterfly-trifecta img{
     max-width:25%;
     height:auto;
+}
+
+.butterfly-trifecta {
+    display: flex;
+    margin: 0 75px;
+    justify-content: space-around;
 }
 
 .main-menu {
