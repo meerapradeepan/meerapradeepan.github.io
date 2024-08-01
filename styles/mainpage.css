@@ -51,14 +51,17 @@ header {
 }
 
 .cocoon {
+    position: absolute;
     right: 7.5%;
 }
 
 .caterpillar {
+    position: absolute;
     right: 38.5%;
 }
 
 .butterfly {
+    position: absolute;
     right: 68.5%;
 }
 
