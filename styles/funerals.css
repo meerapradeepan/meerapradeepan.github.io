@@ -45,6 +45,14 @@ body {
 .butterfly-container {
     align-items: center;
 }
+.large-text-container{
+    display: flex;
+    align-items: center;
+    padding: 50px;
+}
+.large-text{
+    font-size: 1.25em;
+}
 .butterfly{
     display:block;
     padding: 10px;
@@ -62,6 +70,7 @@ body {
 
 .content{
     margin: 0 25px;
+    font-size:1.1em;
 }
 
 /* end funeral specific stuff*/

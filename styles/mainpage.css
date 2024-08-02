@@ -53,6 +53,7 @@ header {
     color: #181069;
     text-align: center;
     margin: 0 50px;
+    font-size: 1.25em;
 }
 
 .nav-list{
@@ -75,9 +76,14 @@ header {
 .nav-list div{
     background: #3c6d33;
     color: #29245b;
-    padding: 15px;
-    margin: 10px;
+    padding: 7.5px;
+    margin: 7.5px;
 }
+
+.nav-list li div{
+    font-size: 1.1em;
+}
+
 
 .butterfly-trifecta img{
     max-width:25%;
